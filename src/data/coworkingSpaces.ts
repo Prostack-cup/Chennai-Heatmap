@@ -5,6 +5,10 @@ export interface CoworkingSpace {
   price: string;
   coordinates: [number, number];
   area: string;
+  poc?: {
+    name: string;
+    contact: string;
+  }[];
 }
 
 export const coworkingSpaces: CoworkingSpace[] = [
@@ -14,7 +18,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Alwarpet",
     area: "Chennai - Central",
     price: "8500",
-    coordinates: [13.0319, 80.2634]
+    coordinates: [13.0319, 80.2634],
+    poc: [
+      { name: "Yogesh", contact: "074011 04050" },
+      { name: "Vijay", contact: "7824810983" }
+    ]
   },
   {
     name: "Two Trees Workspaces",
@@ -22,7 +30,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Alwarpet",
     area: "Chennai - Central",
     price: "10000",
-    coordinates: [13.0319, 80.2634]
+    coordinates: [13.0319, 80.2634],
+    poc: [
+      { name: "Prakash", contact: "7338717333" }
+    ]
   },
   {
     name: "Wibur Coworking",
@@ -30,7 +41,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Alwarpet",
     area: "Chennai - Central",
     price: "8000",
-    coordinates: [13.0319, 80.2634]
+    coordinates: [13.0319, 80.2634],
+    poc: [
+      { name: "John", contact: "7788996926" },
+      { name: "Shibina", contact: "7788996930" }
+    ]
   },
   {
     name: "Crizone Business Centre",
@@ -38,7 +53,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Ambattur",
     area: "Chennai - North",
     price: "5000",
-    coordinates: [13.1040, 80.1402]
+    coordinates: [13.1040, 80.1402],
+    poc: [
+      { name: "Subha", contact: "8680000022" },
+      { name: "Vidya", contact: "9790829711" }
+    ]
   },
   {
     name: "Crizone",
@@ -46,7 +65,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Ambattur OT",
     area: "Chennai - North",
     price: "3500",
-    coordinates: [13.0947, 80.1455]
+    coordinates: [13.0947, 80.1455],
+    poc: [
+      { name: "Shubha", contact: "9790829711" }
+    ]
   },
   {
     name: "CDS Workspro",
@@ -54,7 +76,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Ammbatur",
     area: "Chennai - North",
     price: "5000",
-    coordinates: [13.1040, 80.1402]
+    coordinates: [13.1040, 80.1402],
+    poc: [
+      { name: "Dipika", contact: "7305008885" },
+      { name: "Jai Kumar", contact: "9500091238" }
+    ]
   },
   {
     name: "Square Space",
@@ -62,7 +88,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Aminjikarai",
     area: "Chennai - North",
     price: "6000",
-    coordinates: [13.0809, 80.2239]
+    coordinates: [13.0809, 80.2239],
+    poc: [
+      { name: "Shridevi", contact: "9840914644" }
+    ]
   },
   {
     name: "Works 9to9",
@@ -70,7 +99,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Aminjikarai",
     area: "Chennai - North",
     price: "7500",
-    coordinates: [13.0809, 80.2239]
+    coordinates: [13.0809, 80.2239],
+    poc: [
+      { name: "Deepika", contact: "07871929929" }
+    ]
   },
   {
     name: "Aalaya workspace",
@@ -78,7 +110,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "5000",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Mahesh", contact: "9789976276" }
+    ]
   },
   {
     name: "Antispot",
@@ -86,7 +121,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "8000",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Tanay", contact: "9884277242" }
+    ]
   },
   {
     name: "The platinum hive",
@@ -94,7 +132,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "6000",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Dhinesh", contact: "7550021777" }
+    ]
   },
   {
     name: "Fuel Workspaces",
@@ -102,7 +143,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "6800",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Vasanth", contact: "8939707530" },
+      { name: "Suganya", contact: "8825486770" }
+    ]
   },
   {
     name: "The Hive",
@@ -110,7 +155,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "12000",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Blenden Lewis", contact: "8778108146" },
+      { name: "Balaji", contact: "9791549404" }
+    ]
   },
   {
     name: "Khalf CoWorks",
@@ -118,7 +167,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "6000",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Mohamed", contact: "9940222448" },
+      { name: "Hari", contact: "9176695759" }
+    ]
   },
   {
     name: "Cowrkz",
@@ -126,7 +179,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "7500",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Rajugopolan", contact: "9121107542" }
+    ]
   },
   {
     name: "Senate-1",
@@ -134,7 +190,12 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "7500",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Shabeer", contact: "9940687628" },
+      { name: "Naveed", contact: "9940159401" },
+      { name: "Aisha", contact: "9840595449" }
+    ]
   },
   {
     name: "Senate-2",
@@ -142,7 +203,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "6500",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Shabeer", contact: "9940687628" },
+      { name: "Naveed", contact: "9940159401" }
+    ]
   },
   {
     name: "RND cube infra llp",
@@ -150,7 +215,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "6000",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Nandakumar", contact: "9841462277" }
+    ]
   },
   {
     name: "Ecowrkz Coworking Office Space Chennai",
@@ -158,7 +226,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "7000-8000",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Madhu", contact: "9962262210" },
+      { name: "Shilpa", contact: "7550163007" }
+    ]
   },
   {
     name: "Vaagai space",
@@ -166,7 +238,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "6000",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Shrinivasan", contact: "9840384140" }
+    ]
   },
   {
     name: "Senate Space - 3",
@@ -174,7 +249,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "8000",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Shabeer", contact: "9940687628" },
+      { name: "Naveed", contact: "9940159401" }
+    ]
   },
   {
     name: "Senate Space - 4",
@@ -182,7 +261,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "8000",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Shabeer", contact: "9940687628" },
+      { name: "Naveed", contact: "9940159401" }
+    ]
   },
   {
     name: "Trend Works - Karuna Conclave",
@@ -190,15 +273,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Nagar",
     area: "Chennai - South",
     price: "12000",
-    coordinates: [13.0878, 80.2117]
-  },
-  {
-    name: "Wibur Coworking",
-    category: "Standard (6k-12k)",
-    location: "Anna Nagar",
-    area: "Chennai - South",
-    price: "8000",
-    coordinates: [13.0878, 80.2117]
+    coordinates: [13.0878, 80.2117],
+    poc: [
+      { name: "Prabhakar", contact: "9094530296" }
+    ]
   },
   {
     name: "My Branch",
@@ -206,7 +284,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "7500",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Veenitha", contact: "8451999506" }
+    ]
   },
   {
     name: "Regus Amarasri",
@@ -214,7 +295,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "12000",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Poorna Chandra", contact: "9080889636" },
+      { name: "Celia Paul", contact: "9551241315" }
+    ]
   },
   {
     name: "Vatika",
@@ -222,7 +307,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "14000",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Sampath Kumar", contact: "9176030201" }
+    ]
   },
   {
     name: "Ishare Office",
@@ -230,7 +318,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "6000",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Rahees", contact: "7010552727" }
+    ]
   },
   {
     name: "VSion Tech Park Pvt Ltd",
@@ -238,7 +329,12 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "6500",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Rajashekhar", contact: "9901584181" },
+      { name: "Ram", contact: "9551888666" },
+      { name: "Kishore", contact: "7601966546" }
+    ]
   },
   {
     name: "HAVL Hitech",
@@ -246,7 +342,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "7000",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Subhasree", contact: "8925441777" }
+    ]
   },
   {
     name: "Work Villa by OYO",
@@ -254,7 +353,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "7500",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Meena", contact: "9791097900" }
+    ]
   },
   {
     name: "Office alltime",
@@ -262,7 +364,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "4000",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Mynitha", contact: "9500137777" }
+    ]
   },
   {
     name: "The executive zone",
@@ -270,7 +375,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "13000",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Divya", contact: "9884853961" }
+    ]
   },
   {
     name: "Rayafeel",
@@ -278,7 +386,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "5000",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Bushra", contact: "8148383856" }
+    ]
   },
   {
     name: "Spacelance virtual office",
@@ -286,7 +397,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "13000",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Contact", contact: "8428881000" }
+    ]
   },
   {
     name: "Qubebizz",
@@ -294,7 +408,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "5500",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Sabitha", contact: "6379848369" }
+    ]
   },
   {
     name: "Wbb Office",
@@ -302,7 +419,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "12000",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Contact", contact: "8589880002" }
+    ]
   },
   {
     name: "Rudhra Coworks",
@@ -310,7 +430,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "6500",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Sharanya", contact: "9498338640" }
+    ]
   },
   {
     name: "Symbyont Asset Management Pvt. Ltd.",
@@ -318,7 +441,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "11000",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Maheera", contact: "9505824010" }
+    ]
   },
   {
     name: "IndiQube Wave",
@@ -326,7 +452,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "7500",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Naveen", contact: "9962789622" },
+      { name: "Monalisa", contact: "6362453996" }
+    ]
   },
   {
     name: "Atrium Coworks",
@@ -334,7 +464,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "7500",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Riyaz", contact: "9025219640" }
+    ]
   },
   {
     name: "Shirdi Technology",
@@ -342,7 +475,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Anna Salai",
     area: "Chennai - Central",
     price: "5000",
-    coordinates: [13.0477, 80.2604]
+    coordinates: [13.0477, 80.2604],
+    poc: [
+      { name: "Mahalaxmi", contact: "7358553352" }
+    ]
   },
   {
     name: "Trust Business center",
@@ -350,7 +486,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Besant nagar",
     area: "Chennai - East",
     price: "6000",
-    coordinates: [13.0032, 80.2761]
+    coordinates: [13.0032, 80.2761],
+    poc: [
+      { name: "Geetha", contact: "9884288800" }
+    ]
   },
   {
     name: "IndiQube Riviera",
@@ -358,7 +497,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Chetpet",
     area: "Chennai - North",
     price: "5000-6000",
-    coordinates: [13.0510, 80.2424]
+    coordinates: [13.0510, 80.2424],
+    poc: [
+      { name: "Naveen", contact: "9962789622" },
+      { name: "Monalisa", contact: "6362453996" }
+    ]
   },
   {
     name: "Regus KRM",
@@ -366,7 +509,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Chetpet",
     area: "Chennai - North",
     price: "14000",
-    coordinates: [13.0510, 80.2424]
+    coordinates: [13.0510, 80.2424],
+    poc: [
+      { name: "Poorna Chandra", contact: "9080889636" }
+    ]
   },
   {
     name: "THE WORK HUB",
@@ -374,7 +520,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Egmore",
     area: "Chennai - South",
     price: "5500",
-    coordinates: [13.0654, 80.2505]
+    coordinates: [13.0654, 80.2505],
+    poc: [
+      { name: "Kishore", contact: "9841092284" }
+    ]
   },
   {
     name: "Desk workspaces",
@@ -382,7 +531,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Ekkatuthangal",
     area: "Chennai - East",
     price: "9000",
-    coordinates: [13.0153, 80.2223]
+    coordinates: [13.0153, 80.2223],
+    poc: [
+      { name: "Elphiqndon", contact: "9940929171" }
+    ]
   },
   {
     name: "The Executive Centre- prestige palladium",
@@ -390,7 +542,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Greams Road",
     area: "Chennai - Central",
     price: "12000",
-    coordinates: [13.0602, 80.2556]
+    coordinates: [13.0602, 80.2556],
+    poc: [
+      { name: "Divya", contact: "9884853961" }
+    ]
   },
   {
     name: "Dhwarco-1",
@@ -398,7 +553,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "6500",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Ranjith", contact: "8072720550" }
+    ]
   },
   {
     name: "OYO Innov8 SKCL",
@@ -406,7 +564,12 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "8500",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Sudharshan", contact: "9790793921" },
+      { name: "Boobalan", contact: "9841559550" },
+      { name: "Shefali", contact: "6366627327" }
+    ]
   },
   {
     name: "Regus Olympia Tech Park",
@@ -414,7 +577,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "12000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Poorna Chandra", contact: "9080889636" },
+      { name: "Celia Paul", contact: "9551241315" }
+    ]
   },
   {
     name: "Regus Olympia Platina",
@@ -422,7 +589,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "12000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Poorna Chandra", contact: "9080889636" },
+      { name: "Celia Paul", contact: "9551241315" }
+    ]
   },
   {
     name: "Smartworks- Olympia National Tower",
@@ -430,7 +601,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "10000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Narendhar Kumar", contact: "9677214007" }
+    ]
   },
   {
     name: "Smartworks- Bharati Vilas",
@@ -438,7 +612,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "9500",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Narendhar Kumar", contact: "9677214007" }
+    ]
   },
   {
     name: "Smartworks- Kochar Globe",
@@ -446,7 +623,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "10000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Narendhar Kumar", contact: "9677214007" }
+    ]
   },
   {
     name: "The Executive Centre- olampia teknos",
@@ -454,7 +634,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "12000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Divya", contact: "9884853961" }
+    ]
   },
   {
     name: "The Executive Centre- tamarai tech park",
@@ -462,7 +645,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "12000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Divya", contact: "9884853961" }
+    ]
   },
   {
     name: "Trend Works - Kochar Bliss",
@@ -470,7 +656,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "11000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Prabhakar", contact: "9094530296" },
+      { name: "Vasudevan", contact: "8056299002" }
+    ]
   },
   {
     name: "Awfis Spero Primus",
@@ -478,7 +668,12 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "8000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Sahastrayu", contact: "9989400206" },
+      { name: "Geetha", contact: "9884452200" },
+      { name: "Pratham", contact: "9600020065" }
+    ]
   },
   {
     name: "Dhwarco-2",
@@ -486,7 +681,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "6500",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Ranjith", contact: "8072720550" }
+    ]
   },
   {
     name: "Dhwarco 3",
@@ -494,7 +692,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "6500",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Ranjith", contact: "8072720550" }
+    ]
   },
   {
     name: "IndiQube Palmyra",
@@ -502,7 +703,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "9000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Naveen", contact: "9962789622" },
+      { name: "Monalisa", contact: "6362453996" }
+    ]
   },
   {
     name: "IndiQube Viceroy",
@@ -510,7 +715,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "9500",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Naveen", contact: "9962789622" },
+      { name: "Monalisa", contact: "6362453996" }
+    ]
   },
   {
     name: "IndiQube Excellence",
@@ -518,7 +727,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "9000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Naveen", contact: "9962789622" },
+      { name: "Monalisa", contact: "6362453996" }
+    ]
   },
   {
     name: "IndiQube Ocean Bay",
@@ -526,7 +739,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "9000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Naveen", contact: "9962789622" },
+      { name: "Monalisa", contact: "6362453996" }
+    ]
   },
   {
     name: "IndiQube Alpine",
@@ -534,7 +751,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "9000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Naveen", contact: "9962789622" },
+      { name: "Monalisa", contact: "6362453996" }
+    ]
   },
   {
     name: "IndiQube Prime",
@@ -542,7 +763,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "9000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Naveen", contact: "9962789622" },
+      { name: "Monalisa", contact: "6362453996" }
+    ]
   },
   {
     name: "HuntOffices",
@@ -550,7 +775,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "9000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Mihir", contact: "9319427324" }
+    ]
   },
   {
     name: "Khalf CoWorks",
@@ -558,7 +786,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "9500",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Mohamed", contact: "9940222448" }
+    ]
   },
   {
     name: "The Executive Centre - Olympia Technology Park",
@@ -566,7 +797,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "12000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Divya", contact: "9884853961" }
+    ]
   },
   {
     name: "Regus - Spaces Olympia Tech Park",
@@ -574,7 +808,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "12000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Poorna Chandra", contact: "9080889636" }
+    ]
   },
   {
     name: "Trend Works - RR Tower",
@@ -582,7 +819,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "9500",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Prabhakar", contact: "9094530296" }
+    ]
   },
   {
     name: "Trend Works - Bristol Tower",
@@ -590,7 +830,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "9500",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Prabhakar", contact: "9094530296" }
+    ]
   },
   {
     name: "Trend works",
@@ -598,7 +841,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "16000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Prabhakar", contact: "9094530296" }
+    ]
   },
   {
     name: "iSprout Business Centre SMT",
@@ -606,7 +852,12 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "14500",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Suroj", contact: "9154279192" },
+      { name: "Surya", contact: "9121107547" },
+      { name: "Roshni", contact: "9154829573" }
+    ]
   },
   {
     name: "IndiQube Ocean square",
@@ -614,7 +865,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Guindy",
     area: "Chennai - East",
     price: "9000",
-    coordinates: [13.0084, 80.2214]
+    coordinates: [13.0084, 80.2214],
+    poc: [
+      { name: "Naveen", contact: "9962789622" },
+      { name: "Monalisa", contact: "6362453996" }
+    ]
   },
   {
     name: "The Workzone Business center",
@@ -622,7 +877,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Kilpauk",
     area: "Chennai - West",
     price: "7500",
-    coordinates: [13.0800, 80.2281]
+    coordinates: [13.0800, 80.2281],
+    poc: [
+      { name: "Sumati", contact: "07448822663" }
+    ]
   },
   {
     name: "The Affordable Place",
@@ -630,7 +888,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "kilpauk",
     area: "Chennai - West",
     price: "6000",
-    coordinates: [13.0800, 80.2281]
+    coordinates: [13.0800, 80.2281],
+    poc: [
+      { name: "Pradeep", contact: "9840103282" }
+    ]
   },
   {
     name: "VSion Tech park Pvt Ltd",
@@ -638,7 +899,12 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Kilpauk",
     area: "Chennai - West",
     price: "6500",
-    coordinates: [13.0800, 80.2281]
+    coordinates: [13.0800, 80.2281],
+    poc: [
+      { name: "Rajashekhar", contact: "9901584181" },
+      { name: "Ram", contact: "9551888666" },
+      { name: "Kishore", contact: "7601966546" }
+    ]
   },
   {
     name: "The Office Xpress",
@@ -646,7 +912,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Kodambakkam",
     area: "Chennai - East",
     price: "10200",
-    coordinates: [13.0231, 80.2226]
+    coordinates: [13.0231, 80.2226],
+    poc: [
+      { name: "Victor", contact: "9840874949" }
+    ]
   },
   {
     name: "Ishare Office",
@@ -654,7 +923,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Kolathur",
     area: "Chennai - North",
     price: "3500",
-    coordinates: [13.1122, 80.1905]
+    coordinates: [13.1122, 80.1905],
+    poc: [
+      { name: "Rahees", contact: "7010552727" }
+    ]
   },
   {
     name: "Mikro Grafeio (Beyond Workspaces)",
@@ -662,7 +934,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Koyembedu",
     area: "Chennai - North",
     price: "5500",
-    coordinates: [13.0567, 80.2104]
+    coordinates: [13.0567, 80.2104],
+    poc: [
+      { name: "Smriti", contact: "8056298612" },
+      { name: "Sarvanan", contact: "9080169506" }
+    ]
   },
   {
     name: "ARS coworking",
@@ -670,7 +946,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Madipakkam",
     area: "Chennai - East",
     price: "6000",
-    coordinates: [12.9469, 80.1817]
+    coordinates: [12.9469, 80.1817],
+    poc: [
+      { name: "Selvam", contact: "9884642837" },
+      { name: "Lakshmi", contact: "9789976662" }
+    ]
   },
   {
     name: "Pick your desk",
@@ -678,7 +958,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Madipakkam",
     area: "Chennai - East",
     price: "5500",
-    coordinates: [12.9469, 80.1817]
+    coordinates: [12.9469, 80.1817],
+    poc: [
+      { name: "Kumaraswami", contact: "9940334644" }
+    ]
   },
   {
     name: "Workdesq",
@@ -686,7 +969,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Maduravoyal",
     area: "Chennai - West",
     price: "5000",
-    coordinates: [13.0790, 80.1763]
+    coordinates: [13.0790, 80.1763],
+    poc: [
+      { name: "Kavitha", contact: "8508544011" }
+    ]
   },
   {
     name: "Coqub Coworking Space",
@@ -694,7 +980,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Maduravoyal",
     area: "Chennai - West",
     price: "6500",
-    coordinates: [13.0790, 80.1763]
+    coordinates: [13.0790, 80.1763],
+    poc: [
+      { name: "Ganesh Kumar", contact: "7305098809" },
+      { name: "Kavitha", contact: "8508544012" }
+    ]
   },
   {
     name: "Crizone Business Centre",
@@ -702,7 +992,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Mogappair East",
     area: "Chennai - East",
     price: "5000",
-    coordinates: [13.0878, 80.1796]
+    coordinates: [13.0878, 80.1796],
+    poc: [
+      { name: "Subha", contact: "8680000022" },
+      { name: "Vidya", contact: "9790829711" }
+    ]
   },
   {
     name: "1111 Studio Space",
@@ -710,7 +1004,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Mogappair East",
     area: "Chennai - East",
     price: "8000",
-    coordinates: [13.0878, 80.1796]
+    coordinates: [13.0878, 80.1796],
+    poc: [
+      { name: "Prince", contact: "9841002900" }
+    ]
   },
   {
     name: "CDS Workspro",
@@ -718,7 +1015,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Mogappair East",
     area: "Chennai - East",
     price: "6000",
-    coordinates: [13.0878, 80.1796]
+    coordinates: [13.0878, 80.1796],
+    poc: [
+      { name: "Dipika", contact: "7305008885" },
+      { name: "Jai Kumar", contact: "9500091238" }
+    ]
   },
   {
     name: "Square Space",
@@ -726,7 +1027,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Mogappair East",
     area: "Chennai - East",
     price: "6000",
-    coordinates: [13.0878, 80.1796]
+    coordinates: [13.0878, 80.1796],
+    poc: [
+      { name: "Shridevi", contact: "9840914644" }
+    ]
   },
   {
     name: "abcd mogappair - a business class desk",
@@ -734,7 +1038,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Mogappair East",
     area: "Chennai - East",
     price: "5000",
-    coordinates: [13.0878, 80.1796]
+    coordinates: [13.0878, 80.1796],
+    poc: [
+      { name: "Avinash", contact: "9884011451" }
+    ]
   },
   {
     name: "Co-Concept",
@@ -742,7 +1049,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Mylapore",
     area: "Chennai - East",
     price: "500/hour",
-    coordinates: [13.0299, 80.2645]
+    coordinates: [13.0299, 80.2645],
+    poc: [
+      { name: "Kumaran", contact: "8939319334" }
+    ]
   },
   {
     name: "Regus Citi Centre",
@@ -750,7 +1060,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Mylapore",
     area: "Chennai - East",
     price: "12000",
-    coordinates: [13.0299, 80.2645]
+    coordinates: [13.0299, 80.2645],
+    poc: [
+      { name: "Poorna Chandra", contact: "9080889636" },
+      { name: "Celia Paul", contact: "9551241315" }
+    ]
   },
   {
     name: "CIIC Co-Working Space",
@@ -758,7 +1072,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Mylapore",
     area: "Chennai - East",
     price: "12000",
-    coordinates: [13.0299, 80.2645]
+    coordinates: [13.0299, 80.2645],
+    poc: [
+      { name: "Kiran", contact: "9884282809" }
+    ]
   },
   {
     name: "Workmate",
@@ -766,7 +1083,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Nandanam",
     area: "Chennai - West",
     price: "7000",
-    coordinates: [13.0215, 80.2323]
+    coordinates: [13.0215, 80.2323],
+    poc: [
+      { name: "Sakthi", contact: "6385287003" }
+    ]
   },
   {
     name: "DBS Business Center",
@@ -774,7 +1094,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Nungambakkam",
     area: "Chennai - West",
     price: "9500",
-    coordinates: [13.0400, 80.2270]
+    coordinates: [13.0400, 80.2270],
+    poc: [
+      { name: "Jaiyander", contact: "9894573782" }
+    ]
   },
   {
     name: "Workamuse",
@@ -782,7 +1105,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Nungambakkam",
     area: "Chennai - West",
     price: "5500",
-    coordinates: [13.0400, 80.2270]
+    coordinates: [13.0400, 80.2270],
+    poc: [
+      { name: "Arjun", contact: "9003127048" }
+    ]
   },
   {
     name: "Awfis Gemini Circle Nungambakkam",
@@ -790,7 +1116,13 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Nungambakkam",
     area: "Chennai - West",
     price: "11000",
-    coordinates: [13.0400, 80.2270]
+    coordinates: [13.0400, 80.2270],
+    poc: [
+      { name: "Sahastrayu", contact: "9989400206" },
+      { name: "Geetha", contact: "9884452200" },
+      { name: "Amrutha", contact: "9094015858" },
+      { name: "Pratham", contact: "9600020065" }
+    ]
   },
   {
     name: "Work 11",
@@ -798,7 +1130,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Nungambakkam",
     area: "Chennai - West",
     price: "9k",
-    coordinates: [13.0400, 80.2270]
+    coordinates: [13.0400, 80.2270],
+    poc: [
+      { name: "Sunil", contact: "9176910011" },
+      { name: "Chandra Mauli", contact: "9841027187" }
+    ]
   },
   {
     name: "Work Villa by OYO",
@@ -806,7 +1142,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Nungambakkam",
     area: "Chennai - West",
     price: "7500",
-    coordinates: [13.0400, 80.2270]
+    coordinates: [13.0400, 80.2270],
+    poc: [
+      { name: "Meena", contact: "9791097900" }
+    ]
   },
   {
     name: "My Branch",
@@ -814,7 +1153,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Nungambakkam",
     area: "Chennai - West",
     price: "8500",
-    coordinates: [13.0400, 80.2270]
+    coordinates: [13.0400, 80.2270],
+    poc: [
+      { name: "Veenitha", contact: "8451999506" }
+    ]
   },
   {
     name: "Awfis Prestige Palladium Bayan",
@@ -822,7 +1164,13 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Nungambakkam",
     area: "Chennai - West",
     price: "11500",
-    coordinates: [13.0400, 80.2270]
+    coordinates: [13.0400, 80.2270],
+    poc: [
+      { name: "Sahastrayu", contact: "9989400206" },
+      { name: "Geetha", contact: "9884452200" },
+      { name: "Amrutha", contact: "9094015858" },
+      { name: "Pratham", contact: "9600020065" }
+    ]
   },
   {
     name: "Whole Works - Co working space",
@@ -830,7 +1178,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Nungambakkam",
     area: "Chennai - West",
     price: "7000",
-    coordinates: [13.0400, 80.2270]
+    coordinates: [13.0400, 80.2270],
+    poc: [
+      { name: "Vinodh", contact: "9042081944" }
+    ]
   },
   {
     name: "Woco Space",
@@ -838,7 +1189,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Nungambakkam",
     area: "Chennai - West",
     price: "7000",
-    coordinates: [13.0400, 80.2270]
+    coordinates: [13.0400, 80.2270],
+    poc: [
+      { name: "Jayashree", contact: "6381196792" }
+    ]
   },
   {
     name: "Indiqube Brigade Vantage",
@@ -846,7 +1200,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Perungudi",
     area: "Chennai - South",
     price: "8500",
-    coordinates: [12.9383, 80.2256]
+    coordinates: [12.9383, 80.2256],
+    poc: [
+      { name: "Naveen", contact: "9962789622" },
+      { name: "Monalisa", contact: "6362453996" }
+    ]
   },
   {
     name: "A-space",
@@ -854,7 +1212,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Velachery",
     area: "Chennai - East",
     price: "4000",
-    coordinates: [12.9526, 80.2138]
+    coordinates: [12.9526, 80.2138],
+    poc: [
+      { name: "Alex", contact: "9962531982" }
+    ]
   },
   {
     name: "CPJK Workspace",
@@ -862,7 +1223,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Vadapalani",
     area: "Chennai - South",
     price: "7500",
-    coordinates: [13.0661, 80.2114]
+    coordinates: [13.0661, 80.2114],
+    poc: [
+      { name: "Varanidharan", contact: "7010025126" }
+    ]
   },
   {
     name: "Regus Spaces Express Avenue",
@@ -870,7 +1234,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Royapettah",
     area: "Chennai - North",
     price: "12000",
-    coordinates: [13.0404, 80.2535]
+    coordinates: [13.0404, 80.2535],
+    poc: [
+      { name: "Poorna Chandra", contact: "9080889636" },
+      { name: "Celia Paul", contact: "9551241315" }
+    ]
   },
   {
     name: "Regus Prince Infocity II",
@@ -878,7 +1246,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "OMR",
     area: "Chennai - South",
     price: "12000",
-    coordinates: [12.9790, 80.2500]
+    coordinates: [12.9790, 80.2500],
+    poc: [
+      { name: "Poorna Chandra", contact: "9080889636" },
+      { name: "Celia Paul", contact: "9551241315" }
+    ]
   },
   {
     name: "Regus Shyamala Gardens",
@@ -886,7 +1258,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Vadapalani",
     area: "Chennai - South",
     price: "12000",
-    coordinates: [13.0661, 80.2114]
+    coordinates: [13.0661, 80.2114],
+    poc: [
+      { name: "Poorna Chandra", contact: "9080889636" },
+      { name: "Celia Paul", contact: "9551241315" }
+    ]
   },
   {
     name: "Makers tribe",
@@ -894,7 +1270,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "OMR",
     area: "Chennai - South",
     price: "3500",
-    coordinates: [12.9790, 80.2500]
+    coordinates: [12.9790, 80.2500],
+    poc: [
+      { name: "Sakthi", contact: "8610086243" },
+      { name: "Aravind", contact: "8870788712" }
+    ]
   },
   {
     name: "Space N Beyond",
@@ -902,7 +1282,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Tambaram",
     area: "Chennai - South",
     price: "5000-6000",
-    coordinates: [12.9341, 80.1695]
+    coordinates: [12.9341, 80.1695],
+    poc: [
+      { name: "Sudha", contact: "9884616151" }
+    ]
   },
   {
     name: "Inspire Workspace",
@@ -910,7 +1293,12 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Vadapalani",
     area: "Chennai - South",
     price: "5500",
-    coordinates: [13.0661, 80.2114]
+    coordinates: [13.0661, 80.2114],
+    poc: [
+      { name: "Shanker", contact: "9380090783" },
+      { name: "Rajeshwari", contact: "9677120783" },
+      { name: "Jenifer", contact: "9043496458" }
+    ]
   },
   {
     name: "Greeta, WorkFlo by OYO",
@@ -918,7 +1306,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "OMR",
     area: "Chennai - South",
     price: "5800",
-    coordinates: [12.9790, 80.2500]
+    coordinates: [12.9790, 80.2500],
+    poc: [
+      { name: "Sudharshan", contact: "9790793921" },
+      { name: "Boobalan", contact: "9841559550" }
+    ]
   },
   {
     name: "Awfis Bascon",
@@ -926,7 +1318,12 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "T Nagar",
     area: "Chennai - East",
     price: "7000",
-    coordinates: [13.0374, 80.2317]
+    coordinates: [13.0374, 80.2317],
+    poc: [
+      { name: "Sahastrayu", contact: "9989400206" },
+      { name: "Geetha", contact: "9884452200" },
+      { name: "Pratham", contact: "9600020065" }
+    ]
   },
   {
     name: "Cowrks",
@@ -934,7 +1331,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Perungudi",
     area: "Chennai - South",
     price: "14500",
-    coordinates: [12.9383, 80.2256]
+    coordinates: [12.9383, 80.2256],
+    poc: [
+      { name: "Shivani", contact: "9500144508" }
+    ]
   },
   {
     name: "Cowrks",
@@ -942,7 +1342,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "OMR",
     area: "Chennai - South",
     price: "16000",
-    coordinates: [12.9790, 80.2500]
+    coordinates: [12.9790, 80.2500],
+    poc: [
+      { name: "Praveen", contact: "8667600771" }
+    ]
   },
   {
     name: "Smartworks Arihant Verge",
@@ -950,7 +1353,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Perungudi",
     area: "Chennai - South",
     price: "10500",
-    coordinates: [12.9383, 80.2256]
+    coordinates: [12.9383, 80.2256],
+    poc: [
+      { name: "Narendhar Kumar", contact: "9677214007" }
+    ]
   },
   {
     name: "Smartworks Prestige Polygon",
@@ -958,7 +1364,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Teynampet",
     area: "Chennai - South",
     price: "10000",
-    coordinates: [13.0294, 80.2361]
+    coordinates: [13.0294, 80.2361],
+    poc: [
+      { name: "Narendhar Kumar", contact: "9677214007" }
+    ]
   },
   {
     name: "OYO Innov8 RMZ Millenia",
@@ -966,7 +1375,12 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Perungudi",
     area: "Chennai - South",
     price: "9500",
-    coordinates: [12.9383, 80.2256]
+    coordinates: [12.9383, 80.2256],
+    poc: [
+      { name: "Sudharshan", contact: "9790793921" },
+      { name: "Boobalan", contact: "9841559550" },
+      { name: "Shefali", contact: "6366627327" }
+    ]
   },
   {
     name: "WorkEZ",
@@ -974,7 +1388,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "OMR",
     area: "Chennai - South",
     price: "11500",
-    coordinates: [12.9790, 80.2500]
+    coordinates: [12.9790, 80.2500],
+    poc: [
+      { name: "Rohit", contact: "8825848203" },
+      { name: "Guhan", contact: "9551245124" }
+    ]
   },
   {
     name: "Cactus",
@@ -982,7 +1400,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "sholinganallur",
     area: "Chennai - East",
     price: "8500",
-    coordinates: [12.8999, 80.2206]
+    coordinates: [12.8999, 80.2206],
+    poc: [
+      { name: "Deepika", contact: "7358259388" },
+      { name: "Donald", contact: "7708004813" }
+    ]
   },
   {
     name: "Awfis Prestige Cosmopolitan",
@@ -990,7 +1412,13 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Saidapet",
     area: "Chennai - East",
     price: "13000",
-    coordinates: [13.0166, 80.2200]
+    coordinates: [13.0166, 80.2200],
+    poc: [
+      { name: "Sahastrayu", contact: "9989400206" },
+      { name: "Geetha", contact: "9884452200" },
+      { name: "Amrutha", contact: "9094015858" },
+      { name: "Pratham", contact: "9600020065" }
+    ]
   },
   {
     name: "Awfis OMR 1",
@@ -998,7 +1426,13 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "OMR",
     area: "Chennai - South",
     price: "7000",
-    coordinates: [12.9790, 80.2500]
+    coordinates: [12.9790, 80.2500],
+    poc: [
+      { name: "Sahastrayu", contact: "9989400206" },
+      { name: "Geetha", contact: "9884452200" },
+      { name: "Amrutha", contact: "9094015858" },
+      { name: "Pratham", contact: "9600020065" }
+    ]
   },
   {
     name: "The Hive",
@@ -1006,7 +1440,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "OMR",
     area: "Chennai - South",
     price: "14000",
-    coordinates: [12.9790, 80.2500]
+    coordinates: [12.9790, 80.2500],
+    poc: [
+      { name: "Blenden Lewis", contact: "8778108146" },
+      { name: "Balaji", contact: "9791549404" }
+    ]
   },
   {
     name: "NIC TECH PARK",
@@ -1014,7 +1452,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Perungudi",
     area: "Chennai - South",
     price: "12000",
-    coordinates: [12.9383, 80.2256]
+    coordinates: [12.9383, 80.2256],
+    poc: [
+      { name: "Sindhuja", contact: "9600002026" }
+    ]
   },
   {
     name: "HubFive",
@@ -1022,7 +1463,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "sholinganallur",
     area: "Chennai - East",
     price: "4800",
-    coordinates: [12.8999, 80.2206]
+    coordinates: [12.8999, 80.2206],
+    poc: [
+      { name: "Thiru Murugan", contact: "6379729487" }
+    ]
   },
   {
     name: "WorkEZ Hansa",
@@ -1030,7 +1474,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Pathari Road",
     area: "Chennai - Central",
     price: "10000",
-    coordinates: [13.0142, 80.2185]
+    coordinates: [13.0142, 80.2185],
+    poc: [
+      { name: "Jagadeesh", contact: "9884153686" },
+      { name: "Rohit", contact: "9551245124" }
+    ]
   },
   {
     name: "IndiQube Millenia",
@@ -1038,7 +1486,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Perungudi",
     area: "Chennai - South",
     price: "15000",
-    coordinates: [12.9383, 80.2256]
+    coordinates: [12.9383, 80.2256],
+    poc: [
+      { name: "Naveen", contact: "9962789622" },
+      { name: "Monalisa", contact: "6362453996" }
+    ]
   },
   {
     name: "Logic Space Coworking Space",
@@ -1046,7 +1498,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Saligramam",
     area: "Chennai - North",
     price: "10000",
-    coordinates: [12.8999, 80.2206]
+    coordinates: [12.8999, 80.2206],
+    poc: [
+      { name: "Contact", contact: "9345247608" }
+    ]
   },
   {
     name: "Cove office",
@@ -1054,7 +1509,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Perungudi",
     area: "Chennai - South",
     price: "9500",
-    coordinates: [12.9383, 80.2256]
+    coordinates: [12.9383, 80.2256],
+    poc: [
+      { name: "Mani", contact: "8105100800" }
+    ]
   },
   {
     name: "Desk Ventures",
@@ -1062,7 +1520,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Purasaiwakkam",
     area: "Chennai - West",
     price: "4000",
-    coordinates: [13.0873, 80.2331]
+    coordinates: [13.0873, 80.2331],
+    poc: [
+      { name: "Hardik", contact: "9962214040" }
+    ]
   },
   {
     name: "Vantage Coworking",
@@ -1070,7 +1531,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Thiruvanmiyur",
     area: "Chennai - East",
     price: "5000",
-    coordinates: [12.9856, 80.2595]
+    coordinates: [12.9856, 80.2595],
+    poc: [
+      { name: "Somu", contact: "9003003325" }
+    ]
   },
   {
     name: "Mikro Grafeio (Beyond Workspaces)",
@@ -1078,7 +1542,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Teynampet",
     area: "Chennai - South",
     price: "7000",
-    coordinates: [13.0294, 80.2361]
+    coordinates: [13.0294, 80.2361],
+    poc: [
+      { name: "Smriti", contact: "8056298612" },
+      { name: "Sarvanan", contact: "9080169506" }
+    ]
   },
   {
     name: "Work Villa by OYO",
@@ -1086,7 +1554,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Royapettah",
     area: "Chennai - North",
     price: "7500",
-    coordinates: [13.0404, 80.2535]
+    coordinates: [13.0404, 80.2535],
+    poc: [
+      { name: "Meena", contact: "9791097900" }
+    ]
   },
   {
     name: "Coqub Coworking Space",
@@ -1094,7 +1565,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Villivakkam",
     area: "Chennai - North",
     price: "7500",
-    coordinates: [13.0700, 80.1715]
+    coordinates: [13.0700, 80.1715],
+    poc: [
+      { name: "Kavitha", contact: "8508544011" }
+    ]
   },
   {
     name: "The Executive Centre - RMZ ONE PARAMOUNT",
@@ -1102,7 +1576,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Porur",
     area: "Chennai - North",
     price: "12000",
-    coordinates: [13.0124, 80.2122]
+    coordinates: [13.0124, 80.2122],
+    poc: [
+      { name: "Divya", contact: "9884853961" }
+    ]
   },
   {
     name: "Awfis Arihant Technopolis",
@@ -1110,7 +1587,13 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "OMR",
     area: "Chennai - South",
     price: "10800",
-    coordinates: [12.9790, 80.2500]
+    coordinates: [12.9790, 80.2500],
+    poc: [
+      { name: "Sahastrayu", contact: "9989400206" },
+      { name: "Geetha", contact: "9884452200" },
+      { name: "Amrutha", contact: "9094015858" },
+      { name: "Pratham", contact: "9600020065" }
+    ]
   },
   {
     name: "Awfis Centre Point",
@@ -1118,7 +1601,13 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Porur",
     area: "Chennai - North",
     price: "9000",
-    coordinates: [13.0124, 80.2122]
+    coordinates: [13.0124, 80.2122],
+    poc: [
+      { name: "Sahastrayu", contact: "9989400206" },
+      { name: "Geetha", contact: "9884452200" },
+      { name: "Amrutha", contact: "9094015858" },
+      { name: "Pratham", contact: "9600020065" }
+    ]
   },
   {
     name: "Awfis Sierra",
@@ -1126,7 +1615,13 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "OMR",
     area: "Chennai - South",
     price: "10800",
-    coordinates: [12.9790, 80.2500]
+    coordinates: [12.9790, 80.2500],
+    poc: [
+      { name: "Sahastrayu", contact: "9989400206" },
+      { name: "Geetha", contact: "9884452200" },
+      { name: "Amrutha", contact: "9094015858" },
+      { name: "Pratham", contact: "9600020065" }
+    ]
   },
   {
     name: "canyon coworking space",
@@ -1134,7 +1629,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Thoraipakkam",
     area: "Chennai - East",
     price: "7500",
-    coordinates: [12.8925, 80.2244]
+    coordinates: [12.8925, 80.2244],
+    poc: [
+      { name: "Ravi", contact: "9360219360" }
+    ]
   },
   {
     name: "Managed Office",
@@ -1142,7 +1640,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "OMR",
     area: "Chennai - South",
     price: "100 sqft",
-    coordinates: [12.9790, 80.2500]
+    coordinates: [12.9790, 80.2500],
+    poc: [
+      { name: "M.Sekar", contact: "9884087559" }
+    ]
   },
   {
     name: "Mikro Grafeio (Beyond Workspaces)",
@@ -1150,7 +1651,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Royapettah",
     area: "Chennai - North",
     price: "8000",
-    coordinates: [13.0404, 80.2535]
+    coordinates: [13.0404, 80.2535],
+    poc: [
+      { name: "Smriti", contact: "8056298612" }
+    ]
   },
   {
     name: "Mikro Grafeio (Beyond Workspaces)",
@@ -1158,7 +1662,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Velachery",
     area: "Chennai - East",
     price: "7000-9000",
-    coordinates: [12.9526, 80.2138]
+    coordinates: [12.9526, 80.2138],
+    poc: [
+      { name: "Smriti", contact: "8056298612" }
+    ]
   },
   {
     name: "Trend Works - Sterling Technopolis",
@@ -1166,7 +1673,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "OMR",
     area: "Chennai - South",
     price: "12000",
-    coordinates: [12.9790, 80.2500]
+    coordinates: [12.9790, 80.2500],
+    poc: [
+      { name: "Prabhakar", contact: "9094530296" }
+    ]
   },
   {
     name: "Wibur Coworking",
@@ -1174,7 +1684,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "oragadam",
     area: "Chennai - South",
     price: "8000",
-    coordinates: [12.8887, 80.0734]
+    coordinates: [12.8887, 80.0734],
+    poc: [
+      { name: "John", contact: "7788996926" },
+      { name: "Shibina", contact: "7788996930" }
+    ]
   },
   {
     name: "Smartworks Olympia Pinnacle",
@@ -1182,15 +1696,21 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Thoraipakkam",
     area: "Chennai - East",
     price: "10000",
-    coordinates: [12.8925, 80.2244]
+    coordinates: [12.8925, 80.2244],
+    poc: [
+      { name: "Narendhar Kumar", contact: "9677214007" }
+    ]
   },
   {
-    name: "Spaces, (Regus)",
+    name: "Spaces",
     category: "Premium(12K or More)",
     location: "Royapettah",
     area: "Chennai - North",
     price: "20000",
-    coordinates: [13.0404, 80.2535]
+    coordinates: [13.0404, 80.2535],
+    poc: [
+      { name: "Abdul Rahim", contact: "8939717430" }
+    ]
   },
   {
     name: "Joy works",
@@ -1198,7 +1718,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "sholinganallur",
     area: "Chennai - East",
     price: "8000",
-    coordinates: [12.8999, 80.2206]
+    coordinates: [12.8999, 80.2206],
+    poc: [
+      { name: "Mani", contact: "9677888253" }
+    ]
   },
   {
     name: "Offisolv",
@@ -1206,7 +1729,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Saidpet",
     area: "Chennai - South",
     price: "6500",
-    coordinates: [13.0166, 80.2200]
+    coordinates: [13.0166, 80.2200],
+    poc: [
+      { name: "Gupta", contact: "9841014144" }
+    ]
   },
   {
     name: "Chamberz space",
@@ -1214,7 +1740,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "T nagar",
     area: "Chennai - South",
     price: "5000",
-    coordinates: [13.0374, 80.2317]
+    coordinates: [13.0374, 80.2317],
+    poc: [
+      { name: "Venkat Rao", contact: "6381141629" }
+    ]
   },
   {
     name: "Bluemix Coworking",
@@ -1222,7 +1751,11 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Velachery",
     area: "Chennai - East",
     price: "5000",
-    coordinates: [12.9526, 80.2138]
+    coordinates: [12.9526, 80.2138],
+    poc: [
+      { name: "Karthik", contact: "9600099745" },
+      { name: "Praksheth", contact: "9940058102" }
+    ]
   },
   {
     name: "iSprout Business Centre SMT",
@@ -1230,7 +1763,12 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "OMR",
     area: "Chennai - South",
     price: "9500",
-    coordinates: [12.9790, 80.2500]
+    coordinates: [12.9790, 80.2500],
+    poc: [
+      { name: "Suroj", contact: "9154279192" },
+      { name: "Surya", contact: "9121107547" },
+      { name: "Roshni", contact: "9154829573" }
+    ]
   },
   {
     name: "Disruptors / dot coworking",
@@ -1238,6 +1776,10 @@ export const coworkingSpaces: CoworkingSpace[] = [
     location: "Perungudi",
     area: "Chennai - South",
     price: "7500",
-    coordinates: [12.9383, 80.2256]
+    coordinates: [12.9383, 80.2256],
+    poc: [
+      { name: "Karthik", contact: "7806898198" },
+      { name: "Anjali", contact: "New POC" }
+    ]
   }
 ];
