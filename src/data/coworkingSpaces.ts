@@ -1781,5 +1781,205 @@ export const coworkingSpaces: CoworkingSpace[] = [
       { name: "Karthik", contact: "7806898198" },
       { name: "Anjali", contact: "New POC" }
     ]
-  }
+  },
+    {
+      name: "Playworkz coworking space",
+      category: "Sub premium (6k-12k)",
+      location: "Coimbatore, peelamedu",
+      area: "",
+      price: "7000",
+      coordinates: [11.02805, 77.00425],
+      poc: [
+        { name: "Vasantha", contact: "9843641004" }
+      ]
+    },
+    {
+      name: "upstart coworking",
+      category: "Sub premium (6k-12k)",
+      location: "Velachery",
+      area: "Chennai - East",
+      price: "6000",
+      coordinates: [12.975971, 80.221209],
+      poc: [
+        { name: "Poornima", contact: "8015768949" }
+      ]
+    },
+    {
+      name: "Inwrks spaces",
+      category: "Sub premium (6k-12k)",
+      location: "Velachery",
+      area: "Chennai - East",
+      price: "6000",
+      coordinates: [12.975971, 80.221209],
+      poc: [
+        { name: "Ashok", contact: "7550046755" }
+      ]
+    },
+    {
+      name: "WORKBAZZAR",
+      category: "Sub premium (6k-12k)",
+      location: "Nungambakkam",
+      area: "Chennai - West",
+      price: "8000",
+      coordinates: [13.059537, 80.242479],
+      poc: [
+        { name: "Abdul", contact: "9500022249" }
+      ]
+    },
+    {
+      name: "Triple D Coworking",
+      category: "Sub premium (6k-12k)",
+      location: "Ambattur",
+      area: "Chennai - North",
+      price: "6500",
+      coordinates: [13.09818, 80.16152],
+      poc: [
+        { name: "Dhanasekaran", contact: "9443702273" }
+      ]
+    },
+    {
+      name: "Logas cowork",
+      category: "Sub premium (6k-12k)",
+      location: "Anna salai",
+      area: "Chennai - Central",
+      price: "7500",
+      coordinates: [13.048786, 80.249686],
+      poc: [
+        { name: "Loganathan", contact: "7904445074" }
+      ]
+    },
+    {
+      name: "Kriya coworks",
+      category: "Sub premium (6k-12k)",
+      location: "Anna salai",
+      area: "Chennai - Central",
+      price: "6000",
+      coordinates: [13.048786, 80.249686],
+      poc: [
+        { name: "Priya", contact: "8939622277" }
+      ]
+    },
+    {
+      name: "Biz - hive",
+      category: "Sub premium (6k-12k)",
+      location: "Kodambakkam",
+      area: "Chennai - East",
+      price: "6500",
+      coordinates: [13.055125, 80.222121],
+      poc: [
+        { name: "Prabhakar", contact: "9940475555" }
+      ]
+    },
+    {
+      name: "Output",
+      category: "Sub premium (6k-12k)",
+      location: "T Nagar",
+      area: "Chennai - South",
+      price: "10000",
+      coordinates: [13.040503, 80.233692],
+      poc: [
+        { name: "Sudhashan", contact: "9176681401" }
+      ]
+    },
+    {
+      name: "Venture 360",
+      category: "Sub premium (6k-12k)",
+      location: "T Nagar",
+      area: "Chennai - South",
+      price: "10000",
+      coordinates: [13.040503, 80.233692],
+      poc: [
+        { name: "Kavitha", contact: "9445149191" }
+      ]
+    },
+    {
+      name: "Kakarlas Workspace Managed office",
+      category: "Sub premium (6k-12k)",
+      location: "R S puram Coimbature",
+      area: "",
+      price: "9000",
+      coordinates: [11.005, 76.96],
+      poc: [
+        { name: "Govind Prabhu", contact: "9363143338" }
+      ]
+    },
+    {
+      name: "Coverse",
+      category: "Chennai",
+      location: "Mylapore",
+      area: "",
+      price: "8000",
+      coordinates: [13.0333, 80.2667],
+      poc: [
+        { name: "Abbas", contact: "9840174786" }
+      ]
+    },
+    {
+      name: "Intelidesk Workspace",
+      category: "Chennai",
+      location: "Nungambakkam",
+      area: "Chennai - West",
+      price: "5000",
+      coordinates: [13.059537, 80.242479],
+      poc: [
+        { name: "Raj", contact: "9500050994" }
+      ]
+    },
+    {
+      name: "Remotee",
+      category: "Chennai",
+      location: "Madurai",
+      area: "",
+      price: "7500",
+      coordinates: [9.939093, 78.121719],
+      poc: [
+        { name: "Raj Kumar", contact: "8637620860" }
+      ]
+    },
+    {
+      name: "Intelidesk Workspace",
+      category: "Chennai",
+      location: "Guindy",
+      area: "Chennai - East",
+      price: "6500",
+      coordinates: [13.010236, 80.215652],
+      poc: [
+        { name: "Raj", contact: "9500050994" }
+      ]
+    },
+    {
+      name: "Mikro Grafeio Dignity Centre",
+      category: "Sub premium (6k-12k)",
+      location: "Saidapet",
+      area: "Chennai - South",
+      price: "7000",
+      coordinates: [13.0213, 80.2231],
+      poc: [
+        { name: "Smriti", contact: "8056298612" },
+        { name: "Sarvanan", contact: "9080169506" }
+      ]
+    },
+    {
+      name: "GoNwork Coworking",
+      category: "Sub premium (6k-12k)",
+      location: "Tambaram",
+      area: "Chennai - South",
+      price: "6500",
+      coordinates: [12.922915, 80.127457],
+      poc: [
+        { name: "Srikanth", contact: "9841563258" }
+      ]
+    },
+    {
+      name: "Trend Works R83",
+      category: "",
+      location: "Anna Nagar",
+      area: "Chennai - South",
+      price: "",
+      coordinates: [13.084954, 80.206512],
+      poc: [
+        { name: "Prabhakar", contact: "9094530296" },
+        { name: "", contact: "8056299002" }
+      ]
+    }
 ];
