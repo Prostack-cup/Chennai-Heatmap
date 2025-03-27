@@ -23,7 +23,7 @@ export const coworkingSpaces: CoworkingSpace[] = [
       { name: "Yogesh", contact: "074011 04050" },
       { name: "Vijay", contact: "7824810983" }
     ]
-  },
+  }, 
   {
     name: "Two Trees Workspaces",
     category: "Standard (6k-12k)",
@@ -92,7 +92,7 @@ export const coworkingSpaces: CoworkingSpace[] = [
     poc: [
       { name: "Shridevi", contact: "9840914644" }
     ]
-  },
+  }, 
   {
     name: "Works 9to9",
     category: "Standard (6k-12k)",
